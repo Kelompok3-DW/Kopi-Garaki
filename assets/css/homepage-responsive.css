@@ -1,0 +1,49 @@
+@media(max-width: 768px) {
+
+    /* Jumbotron */
+    .carousel-fullsize {
+        height: 80vh;
+    }
+
+    /* Footer */
+    .logo-wrapper {
+        width: 50%;
+    }
+
+    .sosmed .bi {
+        font-size: 3rem;
+    }
+
+    .keterangan-wrapper p {
+        font-size: 1.5rem;
+    }
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 576px) {
+
+    /* Jumbotron */
+    .carousel-fullsize {
+        height: 75vh;
+    }
+
+    /* Footer */
+    .logo-wrapper {
+        width: 80%;
+    }
+
+    .sosmed .bi {
+        font-size: 2rem;
+    }
+
+    .keterangan-wrapper p {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}

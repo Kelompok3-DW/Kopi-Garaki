@@ -1,0 +1,25 @@
+/* Jumbotron */
+.carousel-fullsize {
+    height: 90vh;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+/* Footer */
+.logo-wrapper {
+    width: 80%;
+}
+
+.logo-wrapper img {
+    width: 100%;
+}
+
+.keterangan-wrapper a {
+    text-decoration: none;
+}
+
+.sosmed .bi {
+    font-size: 2.5vw;
+}

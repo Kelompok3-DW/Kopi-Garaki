@@ -1,0 +1,75 @@
+$primary: #432D27;
+$secondary: #985E49;
+$info: #C6978E;
+$white: #EAE7E7;
+$light: #D7B7A3;
+
+
+// import the functions & variables
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+// add new variables
+$custom-theme-colors: (
+    "coklat-primary": #432D27,
+    "coklat-secondary": #985E49,
+    "coklat-tertiary": #C6978E,
+    "putih-primary": #EAE7E7,
+    "putih-secondary": #D7B7A3
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+$bgDefault   : #432D27;
+$bgHighlight : #985E49;
+$colDefault  : #EAE7E7;
+$colHighlight: #D7B7A3;
+.navbar-dark {
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .navbar-text {
+    color: $colDefault; }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover,  &:focus {
+          color: $colHighlight; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $colDefault;
+    &:hover, &:focus {
+      background-color: $colDefault; }
+    .icon-bar {
+      background-color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus, {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+}
