@@ -5,14 +5,19 @@
         height: 80vh;
     }
 
+    /* Ulasan */
+    .wrapper-ulasan {
+        margin: 20px 0;
+    }
+
     /* Footer */
     .logo-wrapper {
         width: 50%;
     }
-	
-	.sosmed {
-	margin: 20px 0;
-	}
+
+    .sosmed {
+        margin: 20px 0;
+    }
 
     .sosmed .bi {
         font-size: 3rem;
@@ -33,6 +38,13 @@
     .carousel-fullsize {
         height: 75vh;
     }
+
+    /* Ulasan */
+    .wrapper-ulasan {
+        width: 80%;
+        margin: 20px 0;
+    }
+
 
     /* Footer */
     .logo-wrapper {
