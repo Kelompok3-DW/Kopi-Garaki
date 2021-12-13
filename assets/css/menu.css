@@ -1,0 +1,143 @@
+/* Jumbotron */
+.carousel-fullsize {
+    height: 90vh;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+/* Menu */
+#menu {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #D7B7A3;
+    position: relative;
+  }
+
+  #menu .container {
+    padding-top: 80px;
+  }
+
+  #menu a {
+      text-decoration: none;
+  }
+  #menu h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #432D27;
+    font-family: "Poppins", sans-serif;
+  }
+  #menu h2 {
+    color: #5e5e5e;
+    margin: 10px 0 0 0;
+    font-size: 22px;
+  }
+  #menu .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 14px 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #2487ce;
+  }
+  #menu .btn-get-started:hover {
+    background: #3194db;
+  }
+  #menu .icon-boxes {
+    margin-top: 100px;
+  }
+  #menu .icon-box {
+    padding: 50px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  #menu .icon-box .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  #menu .icon-box .title a {
+    color: #432D27;
+    transition: 0.3s;
+  }
+  #menu .icon-box .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  #hero .icon-box .icon {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    font-size: 36px;
+    line-height: 1;
+    color: #2487ce;
+  }
+  #menu .icon-box:hover {
+    transform: scale(1.08);
+  }
+  #menu .icon-box:hover .title a {
+    color: #D7B7A3;
+  }
+  @media (min-width: 1024px) {
+    #menu {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-height: 800px) {
+    #menu {
+      height: auto;
+    }
+  }
+  @media (max-width: 992px) {
+    #menu {
+      height: auto;
+    }
+    #menu h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #menu h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .container-penutup {
+      background-color: #D7B7A3;
+  }
+
+/* Footer */
+.logo-wrapper {
+    width: 60%;
+}
+
+.logo-wrapper img {
+    width: 100%;
+}
+
+.keterangan-wrapper a {
+    text-decoration: none;
+}
+
+.sosmed {
+	margin: 10px 0;
+}
+
+.sosmed .bi {
+    font-size: 2vw;
+}
