@@ -2,36 +2,30 @@ body {
     background-color: #D7B7A3;
 }
 
-#box {
-    background-color: #EAE7E7;
-    width: 90%;
-    padding: 50px;
-    border-radius: 20px;
-    margin-left: 60px;
-}
 
 .garaki {
+    margin-left: 20px;
     font-size: 40px;
-    font-style: bold;
+    font-weight: bold;
     color: #432D27;
-}
-
-.imgcontactus {
-    float: right;
-    margin-top: -100px;
 }
 
 .contactus {
     color: #985E49;
-    padding-top: 70px;
     font-style: italic;
-    font-size: 50px;
+    margin-left: 20px;
+    font-size: 30px;
 }
 
-#box2 {
-    background-color: #985E49;
-    width: 90%;
-    padding: 50px;
+.container {
+    background-color: #EAE7E7;
     border-radius: 20px;
-    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container2 {
+    background-color: #985E49;
+    border-radius: 20px;
+    padding: 50px;
 }
