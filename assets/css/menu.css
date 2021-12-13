@@ -98,6 +98,11 @@
       background-attachment: fixed;
     }
   }
+  @media (max-width: 600px) {
+    #menu .icon-boxes {
+        margin-left: 65px;
+     }
+  }
   @media (max-height: 800px) {
     #menu {
       height: auto;
@@ -108,12 +113,15 @@
       height: auto;
     }
     #menu h1 {
-      font-size: 28px;
+      font-size: 48px;
       line-height: 36px;
     }
     #menu h2 {
       font-size: 18px;
       line-height: 24px;
+    }
+    #menu .icon-boxes {
+       margin-left: 35px;
     }
   }
 
