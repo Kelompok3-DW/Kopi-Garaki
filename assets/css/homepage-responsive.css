@@ -9,6 +9,10 @@
     .logo-wrapper {
         width: 50%;
     }
+	
+	.sosmed {
+	margin: 20px 0;
+	}
 
     .sosmed .bi {
         font-size: 3rem;

@@ -9,7 +9,7 @@
 
 /* Footer */
 .logo-wrapper {
-    width: 80%;
+    width: 60%;
 }
 
 .logo-wrapper img {
@@ -20,6 +20,10 @@
     text-decoration: none;
 }
 
+.sosmed {
+	margin: 10px 0;
+}
+
 .sosmed .bi {
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
