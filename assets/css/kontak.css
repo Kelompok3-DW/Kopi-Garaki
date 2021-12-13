@@ -4,27 +4,34 @@ body {
 
 #box {
     background-color: #EAE7E7;
-    width: 100%;
+    width: 90%;
     padding: 50px;
     border-radius: 20px;
-    left: 50px;
-    top: 50px;
+    margin-left: 60px;
 }
 
 .garaki {
-    margin-bottom: 150px;
-    font-size: 30px;
-    font-style: italic;
+    font-size: 40px;
+    font-style: bold;
+    color: #432D27;
 }
 
-.form {
-    display: inline-flex;
+.imgcontactus {
+    float: right;
+    margin-top: -150px;
+}
+
+.contactus {
+    color: #985E49;
+    padding-top: 70px;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#box2 {
     background-color: #985E49;
-    color: #fff;
-    padding: 10px;
-    font-size: 1em;
-    padding-top: 50px;
-    margin-left: 550px;
-
-
+    width: 90%;
+    padding: 50px;
+    border-radius: 20px;
+    margin-left: 60px;
 }
