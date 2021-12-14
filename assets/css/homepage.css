@@ -10,6 +10,46 @@
     object-fit: cover;
 }
 
+/* Layanan Kami */
+.container-ulasanwrapper {
+    background-color: #D7B7A3;
+}
+
+.wrapper-layanan {
+    width: 25%;
+    margin: 20px 40px;
+}
+
+.layanan-imgwrapper {
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #d3d0d0, #faf7f7);
+    box-shadow: 6px 6px 20px #8c8b8b,
+        -6px -6px 20px #ffffff;
+    /* width: 200px; */
+}
+
+.layanan-imgwrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.layanan-imgwrapper p {
+    position: absolute;
+    padding: 2rem;
+    opacity: 0;
+    color: #432D27;
+    text-shadow: 0px 0px 20px #985E49;
+}
+
+.layanan-imgwrapper p:hover {
+    opacity: 1;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+
+
 /* Ulasan */
 .filter {
     filter: brightness(40%) saturate(20%);
