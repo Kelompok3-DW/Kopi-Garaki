@@ -1,7 +1,36 @@
-#box {
+body {
+    background-color: #C4C4C4;
+}
+
+.container-fluid1 {
     background-color: #D7B7A3;
-    width: 90%;
-    padding: 50px;
-    border-radius: 20px;
-    margin-left: 60px;
+}
+
+.Sejarah {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.isisejarah {
+    text-align: center;
+}
+
+.founder {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.isifounder {
+    text-align: center;
+}
+
+.container-fluid2 {
+    background-color: #EAE7E7;
+}
+
+.container-fluid3 {
+    /* background-image: url("../img/bgopen.png"); */
+    background-color: blanchedalmond;
 }
