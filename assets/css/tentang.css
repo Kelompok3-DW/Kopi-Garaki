@@ -12,8 +12,20 @@ body {
     color: black;
 }
 
+.wrapper-imgsejarah {
+    width: 100%;
+}
+
+.wrapper-imgsejarah img {
+    width: 100%;
+}
+
 .isisejarah {
     text-align: center;
+}
+
+.wrapper-imgfounder {
+    margin-left: 20px;
 }
 
 .founder {
