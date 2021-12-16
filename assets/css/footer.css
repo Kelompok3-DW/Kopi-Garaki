@@ -1,0 +1,64 @@
+/* Footer */
+.logo-wrapper {
+    width: 60%;
+}
+
+.logo-wrapper img {
+    width: 100%;
+}
+
+.keterangan-wrapper a {
+    text-decoration: none;
+}
+
+.sosmed {
+    margin: 10px 0;
+}
+
+.sosmed .bi {
+    font-size: 2vw;
+}
+
+@media(max-width: 768px) {
+
+    /* Footer */
+    .logo-wrapper {
+        width: 50%;
+    }
+
+    .sosmed {
+        margin: 20px 0;
+    }
+
+    .sosmed .bi {
+        font-size: 3rem;
+    }
+
+    .keterangan-wrapper p {
+        font-size: 1.5rem;
+    }
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 576px) {
+
+    /* Footer */
+    .logo-wrapper {
+        width: 80%;
+    }
+
+    .sosmed .bi {
+        font-size: 2rem;
+    }
+
+    .keterangan-wrapper p {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,49 @@
+body {
+    background-color: #faebd7;
+}
+
+.pesanan .item-pesanan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pesanan .item-pesanan:nth-child(odd) {
+    background-color: #C6978E;
+}
+
+.pesanan .item-pesanan:nth-child(even) {
+    background-color: #D7B7A3;
+}
+
+.pesanan .wrapper-gambar {
+    width: 150px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.pesanan .wrapper-svg:hover {
+    cursor: pointer;
+    color: #985E49;
+}
+
+.pesanan .wrapper-gambar img {
+    width: 100%;
+}
+
+.pesanan .wrapper-svg {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.pesanan .child-svg {
+    width: 100%;
+}
+
+.total-pesanan .wrapper-svg {
+    width: 40px;
+    padding: 10px 0 10px 10px;
+}
+
+.total-pesanan .child-svg {
+    width: 100%;
+}

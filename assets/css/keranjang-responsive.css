@@ -1,0 +1,23 @@
+@media(max-width: 768px) {}
+
+@media(max-width: 576px) {
+
+
+    .pesanan .col:nth-child(2) {
+        display: none;
+    }
+
+    .pesanan .wrapper-svg {
+        width: 35px;
+        margin: 0 auto;
+    }
+
+    .pesanan .teks {
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .pesanan .teks-sm {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS (Lokal) -->
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/keranjang.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- Custom CSS Responsive -->
+    <link rel="stylesheet" href="assets/css/keranjang-responsive.css">
+
+    <!-- Image Hover -->
+    <link rel="stylesheet" href="assets/imagehover/css/imagehover.min.css">
+
+    <!-- Favicon Logo Kopi Garaki -->
+    <link rel="shortcut icon" href="assets/img/favicon-kopi-garaki-white.ico">
+    <title>Kopi Garaki</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo-kopigaraki-white.png" alt="Logo Kopi Garaki" height="40px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentang.html">Tentang</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Produk
+                        </a>
+                        <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-primary" href="#">Grinder</a></li>
+                            <li><a class="dropdown-item text-primary" href="#">Coffe Maker</a></li>
+                            <li><a class="dropdown-item text-primary" href="#">Roast Beans</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-primary" href="#">Kopi</a></li>
+                            <li><a class="dropdown-item text-primary" href="#">Makanan</a></li>
+                            <li><a class="dropdown-item text-primary" href="#">Minuman</a></li>
+                            <li><a class="dropdown-item text-primary" href="#">Snack</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navigation Bar -->
+
+    <!-- Content -->
+
+    <!-- Awal Form Detail Pesanan -->
+    <div class="container detail-pesanan">
+        <div class="container-form d-flex flex-row align-items-center justify-content-start row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="form">
+                    <form>
+                        <span class="badge bg-primary text-white fs-5 mb-4 mt-4 p-3 fw-light">Detail Pemesan</span>
+                        <div class="mb-3">
+                            <label for="exampleInputfullname" class="form-label text-primary fw-bold">Atas Nama</label>
+                            <input type="fullname" class="form-control bg-info text-primary" id="exampleInputfullname"
+                                aria-describedby="fullnameHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label text-primary fw-bold">Nomor Meja</label>
+                            <input type="email" class="form-control bg-info text-primary" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputmessage" class="form-label text-primary fw-bold">Catatan</label>
+                            <input type="message" class="form-control bg-info text-primary" id="exampleInputmessage"
+                                aria-describedby="messageHelp" style="height: 150px">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Form Detail Pesanan -->
+    <!-- Awal Pesanan -->
+    <div class="container pesanan">
+        <div class="row">
+            <div class="col">
+                <span class="badge bg-primary text-white fs-5 mb-4 mt-4 p-3 fw-light">Pesanan</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center text-center item-pesanan fw-bold rounded ">
+                <div class="col">
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x child-svg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wrapper-gambar">
+                        <img src="assets/img/product-coffe.png" alt="">
+                    </div>
+                </div>
+                <div class="col p-2 d-flex flex-column">
+                    <span class="teks teks-sm">Garaki's Coffe</span>
+                    <span class="teks">Rp. 30.000</span>
+                </div>
+                <div class="col d-flex flex-row align-items-center justify-content-center">
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus child-svg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                    </div>
+                    <div class="teks">5</div>
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-dash child-svg"
+                            viewBox="0 0 16 16">
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col">
+                    <span class="teks">Rp. 150.000</span>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center text-center item-pesanan fw-bold rounded ">
+                <div class="col">
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x child-svg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wrapper-gambar">
+                        <img src="assets/img/product-coffe.png" alt="">
+                    </div>
+                </div>
+                <div class="col p-2 d-flex flex-column">
+                    <span class="teks teks-sm">Garaki's Coffe</span>
+                    <span class="teks">Rp. 30.000</span>
+                </div>
+                <div class="col d-flex flex-row align-items-center justify-content-center">
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus child-svg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                    </div>
+                    <div class="teks">5</div>
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-dash child-svg"
+                            viewBox="0 0 16 16">
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col">
+                    <span class="teks">Rp. 150.000</span>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center text-center item-pesanan fw-bold rounded ">
+                <div class="col">
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x child-svg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wrapper-gambar">
+                        <img src="assets/img/product-coffe.png" alt="">
+                    </div>
+                </div>
+                <div class="col p-2 d-flex flex-column">
+                    <span class="teks teks-sm">Garaki's Coffe</span>
+                    <span class="teks">Rp. 30.000</span>
+                </div>
+                <div class="col d-flex flex-row align-items-center justify-content-center">
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus child-svg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                    </div>
+                    <div class="teks">5</div>
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-dash child-svg"
+                            viewBox="0 0 16 16">
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col">
+                    <span class="teks">Rp. 150.000</span>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center text-center item-pesanan fw-bold rounded ">
+                <div class="col">
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x child-svg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wrapper-gambar">
+                        <img src="assets/img/product-coffe.png" alt="">
+                    </div>
+                </div>
+                <div class="col p-2 d-flex flex-column">
+                    <span class="teks teks-sm">Garaki's Coffe</span>
+                    <span class="teks">Rp. 30.000</span>
+                </div>
+                <div class="col d-flex flex-row align-items-center justify-content-center">
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-plus child-svg"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                    </div>
+                    <div class="teks">5</div>
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-dash child-svg"
+                            viewBox="0 0 16 16">
+                            <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="col">
+                    <span class="teks">Rp. 150.000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Pesanan -->
+    <!-- Awal Total Pesanan -->
+    <div class="container total-pesanan">
+        <div class="d-flex flex-row align-items-center justify-content-end row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <span class="badge bg-primary text-white fs-5 mb-4 mt-4 p-3 fw-light">Total Pesanan</span>
+                <table class="table table-responsive table-borderless">
+                    <tbody>
+                        <tr class="bg-info text-primary fw-bold">
+                            <td>Qty</td>
+                            <td>20</td>
+                        </tr>
+                        <tr class="bg-light text-primary fw-bold">
+                            <td>Sub Total</td>
+                            <td>Rp. 150.000</td>
+                        </tr>
+                        <tr class="bg-info text-primary fw-bold">
+                            <td>Pajak Total</td>
+                            <td>Rp. 5.000</td>
+                        </tr>
+                        <tr class="bg-light text-primary fw-bold">
+                            <td>Grand Total</td>
+                            <td>Rp. 155.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="btn btn-secondary text-white fw-bold mt-4 mb-4 d-flex flex-row align-items-center">
+                    <span>Pesan</span>
+                    <div class="wrapper-svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+                    </div>
+
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Akhir Total Pesanan -->
+
+    <!-- Akhir Content -->
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <div class="row bg-primary">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex align-items-center justify-content-center">
+                <div class="logo-wrapper p-4">
+                    <img src="assets/img/logo-kopigaraki-white.png" alt="Logo Kopi Garaki">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-0 col-sm-0"></div>
+            <div
+                class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center text-center text-lg-end">
+                <div class="keterangan-wrapper p-4">
+                    <p class="text-white m-0">Jalan Brigjen H. Hasan Basri No. 27</p>
+                    <p class="text-white m-0">Banjarmasin Tengah, Banjarmasin</p>
+                    <p class="text-white m-0">Kalimantan Selatan</p>
+                    <p class="text-white fw-bold m-0">
+                        <a class="text-white fw-bold m-0" href="tel:021789693245">(021) 7896 - 93245</a>
+                    </p>
+                    <p class="text-white fw-bold m-0">
+                        <a class="text-white fw-bold m-0" href="mailto:support@kopigaraki.id">support@kopigaraki.id</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-primary">
+            <div class="col-lg-4 col-md-0 col-sm-0"></div>
+            <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+                <div class="sosmed">
+                    <a href="https://web.whatsapp.com/" target="_blank"><i
+                            class="bi bi-whatsapp text-white p-2"></i></a>
+                    <a href="https://twitter.com/home" target="_blank"><i class="bi bi-twitter text-white p-2"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i
+                            class="bi bi-facebook text-white p-2"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="bi bi-instagram text-white p-2"></i></a>
+                </div>
+                <div class="copyright text-white">
+                    <p>&copy; 2021 Kopi Garaki | All Rights Reserved</p>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-0 col-sm-0"></div>
+        </div>
+    </div>
+    <!-- Akhir Footer -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
