@@ -65,7 +65,7 @@
 }
 
 #menu .icon-box {
-  padding: 50px 30px;
+  padding: 50px 70px;
   position: relative;
   overflow: hidden;
   background: #5A3D35;
@@ -87,9 +87,10 @@
 }
 
 #menu .icon-box .description {
-  font-size: 15px;
+  font-size: 27px;
   line-height: 28px;
   margin-bottom: 0;
+  text-align: center;
   color: #F86400;
 }
 
@@ -101,6 +102,10 @@
   font-size: 36px;
   line-height: 1;
   color: #2487ce;
+}
+
+#menu .icon-box .description:hover {
+  color: #FFF;
 }
 
 #menu .icon-box:hover {
