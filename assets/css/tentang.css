@@ -49,13 +49,35 @@
 
 /* ---------- */
 
-.sejarah {
+.Sejarah {
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .sejarah-col {
+    flex-basis: 31%;
+    background: #D7B7A3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.Founder {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card {
+    margin-left: 10px;
     flex-basis: 32%;
     border-radius: 30px;
     margin-bottom: 30px;
@@ -63,12 +85,12 @@
     overflow: hidden;
 }
 
-.sejarah-col img {
+/* .sejarah-col img {
     width: 100%;
 
-}
+} */
 
-.layer {
+/* .card-body {
     text-align: center;
     background-color: transparent;
     height: 100%;
@@ -76,13 +98,17 @@
     position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
-.layer:hover {
+.card-body:hover {
     background: rgba(119, 119, 119, 0.7);
 }
 
-.layer h3 {
+.card-text {
+    text-align: center;
+}
+
+/* .card-body h3 {
     width: 100%;
     font-weight: 500;
     color: #fff;
@@ -91,4 +117,4 @@
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-}
+} */
