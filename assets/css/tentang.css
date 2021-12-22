@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #C4C4C4;
 }
 
@@ -43,6 +43,78 @@ body {
 }
 
 .container-fluid3 {
-    /* background-image: url("../img/bgopen.png"); */
+    background-image: url("../img/bgopen.png");
     background-color: blanchedalmond;
+} */
+
+/* ---------- */
+
+.Sejarah {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sejarah-col {
+    flex-basis: 31%;
+    background: #D7B7A3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.Founder {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card {
+    margin-left: 10px;
+    flex-basis: 32%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .sejarah-col img {
+    width: 100%;
+
+} */
+
+/* .card-body {
+    text-align: center;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.card-body:hover {
+    background: rgba(119, 119, 119, 0.7);
+}
+
+.card-text {
+    text-align: center;
+}
+
+/* .card-body h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+} */
