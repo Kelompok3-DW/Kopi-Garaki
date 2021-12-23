@@ -80,39 +80,11 @@
 
     <!-- Content -->
 
-    <!-- Awal Form Detail Pesanan -->
-    <div class="container detail-pesanan">
-        <div class="container-form d-flex flex-row align-items-center justify-content-start row">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="form">
-                    <form>
-                        <span class="badge bg-primary text-white fs-5 mb-4 mt-4 p-3 fw-light">Detail Pemesan</span>
-                        <div class="mb-3">
-                            <label for="exampleInputfullname" class="form-label text-primary fw-bold">Atas Nama</label>
-                            <input type="fullname" class="form-control bg-info text-primary" id="exampleInputfullname"
-                                aria-describedby="fullnameHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label text-primary fw-bold">Nomor Meja</label>
-                            <input type="email" class="form-control bg-info text-primary" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputmessage" class="form-label text-primary fw-bold">Catatan</label>
-                            <input type="message" class="form-control bg-info text-primary" id="exampleInputmessage"
-                                aria-describedby="messageHelp" style="height: 150px">
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Akhir Form Detail Pesanan -->
     <!-- Awal Pesanan -->
     <div class="container pesanan">
         <div class="row">
             <div class="col">
-                <span class="badge bg-primary text-white fs-5 mb-4 mt-4 p-3 fw-light">Pesanan</span>
+                <span class="text-primary fs-3 d-block my-4 fw-bold">Pesanan</span>
             </div>
         </div>
         <div class="container">
@@ -279,7 +251,7 @@
     <div class="container total-pesanan">
         <div class="d-flex flex-row align-items-center justify-content-end row">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <span class="badge bg-primary text-white fs-5 mb-4 mt-4 p-3 fw-light">Total Pesanan</span>
+                <span class="text-primary fs-3 d-block my-4 fw-bold">Total Pesanan</span>
                 <table class="table table-responsive table-borderless">
                     <tbody>
                         <tr class="bg-info text-primary fw-bold">
@@ -300,6 +272,70 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Total Pesanan -->
+    <!-- Awal Form Detail Pesanan -->
+    <div class="container detail-pesanan">
+        <div class="container-form d-flex flex-row align-items-center justify-content-start row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="form">
+                    <form class="form-detail-pesanan">
+                        <span class="text-primary fs-3 d-block my-4 fw-bold">Detail
+                            Pemesan</span>
+                        <div class="mb-3">
+                            <label for="disabledSelect" class="form-label text-primary fw-bold">Pilih Pemesanan</label>
+                            <select id="disabledSelect" class="form-select select-pemesan bg-info text-primary">
+                                <option id="dine-in" value="dine-in">Dine-In</option>
+                                <option id="take-away" value="take-away">Take Away</option>
+                            </select>
+                        </div>
+                        <!-- Awal Metode Pembayaran -->
+                        <div class="mb-3">
+                            <label for="disabledSelect" class="form-label text-primary fw-bold">Pilih Metode
+                                Pembayaran</label>
+                            <select id="disabledSelect" class="form-select bg-info text-primary">
+                                <option>Cash</option>
+                                <option>Debit</option>
+                                <option>Shopee Pay</option>
+                                <option>Dana</option>
+                                <option>OVO</option>
+                                <option>GoPay</option>
+                            </select>
+                        </div>
+                        <!-- Akhir Metode Pembayaran -->
+
+                        <div class="mb-3">
+                            <label for="exampleInputfullname" class="form-label text-primary fw-bold">Nama
+                                Pemesan</label>
+                            <input type="fullname" class="form-control bg-info text-primary" id="exampleInputfullname"
+                                aria-describedby="fullnameHelp">
+                        </div>
+                        <div class="mb-3 formNomorMeja">
+                            <label for="exampleInputfullname" class="form-label text-primary fw-bold">Nomor Meja</label>
+                            <input type="fullname" class="form-control bg-info text-primary" id="exampleInputfullname"
+                                aria-describedby="fullnameHelp">
+                        </div>
+                        <div class="mb-3 formNoHP">
+                            <label for="exampleInputfullname" class="form-label text-primary fw-bold">No. HP /
+                                Whatsapp
+                                / Email</label>
+                            <input type="fullname" class="form-control bg-info text-primary" id="exampleInputfullname"
+                                aria-describedby="fullnameHelp">
+                        </div>
+                        <div class="mb-3 formAlamat">
+                            <label for="exampleInputmessage" class="form-label text-primary fw-bold">Alamat</label>
+                            <input type="message" class="form-control bg-info text-primary" id="exampleInputmessage"
+                                aria-describedby="messageHelp" style="height: 150px">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputmessage" class="form-label text-primary fw-bold">Catatan</label>
+                            <input type="message" class="form-control bg-info text-primary" id="exampleInputmessage"
+                                aria-describedby="messageHelp" style="height: 150px">
+                        </div>
+                    </form>
+                </div>
                 <a class="btn btn-secondary text-white fw-bold mt-4 mb-4 d-inline-flex flex-row align-items-center"
                     href="pembayaran.html">
                     <span>Pesan</span>
@@ -315,8 +351,7 @@
             </div>
         </div>
     </div>
-
-    <!-- Akhir Total Pesanan -->
+    <!-- Akhir Form Detail Pesanan -->
 
     <!-- Akhir Content -->
 
@@ -374,6 +409,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script src="assets/js/keranjang.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

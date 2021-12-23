@@ -39,11 +39,19 @@ body {
     width: 100%;
 }
 
-.total-pesanan .wrapper-svg {
+.detail-pesanan .wrapper-svg {
     width: 40px;
     padding: 10px 0 10px 10px;
 }
 
-.total-pesanan .child-svg {
+.detail-pesanan .child-svg {
     width: 100%;
+}
+
+.item-hidden {
+    display: none;
+}
+
+.item-visible {
+    display: block;
 }
