@@ -4,16 +4,21 @@ let formNomorMeja = document.querySelector(".formNomorMeja");
 let formNoHP = document.querySelector(".formNoHP");
 let formAlamat = document.querySelector(".formAlamat");
 
-document.querySelector("#disabledSelect").onchange = (e) => {
-	if(e.target.value === 'take-away'){
-		// aksi bila take-away
-        formNomorMeja.className = "item-hide";
-        formNoHP.className = "item-visible";
+let selectPemesanan = document.querySelector("#disabledSelect")
+function handlePemesanan(){
+	if(selectPemesanan.value === 'take-away'){
+		formNomorMeja.className = "item-hide";
+        formNoHP.className = "item-visible my-3";
         formAlamat.className = "item-visible";
 	} else {
-		// aksi bila dine-in
-        formNomorMeja.className = "item-visible";
+		formNomorMeja.className = "item-visible";
         formNoHP.className = "item-hide";
         formAlamat.className = "item-hide";
 	}
+}
+
+handlePemesanan()
+
+selectPemesanan.onchange = (e) => {
+	handlePemesanan()
 }
