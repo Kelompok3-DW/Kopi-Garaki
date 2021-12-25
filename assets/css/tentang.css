@@ -8,7 +8,7 @@
 
 .Sejarah {
     text-align: left;
-    font-size: 40px;
+    /* font-size: 40px; */
     color: black;
 }
 
@@ -22,25 +22,17 @@
 
 .isisejarah {
     text-align: justify;
-    font-size: 20px;
-}
-
-.wrapper-imgfounder {
-    margin-left: 20px;
+    /* font-size: 20px; */
 }
 
 .founder {
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     color: black;
 }
 
 .isifounder {
     text-align: center;
-}
-
-.container-fluid2 {
-    background-color: #EAE7E7;
 }
 
 .jam {
@@ -57,38 +49,30 @@
 .Sejarah {
     margin: auto;
     text-align: center;
-    padding-top: 50px;
-}
-
-.row {
-    /* margin-top: 5%; */
-    display: flex;
-    justify-content: space-between;
-}
-
-.sejarah-col {
-    flex-basis: 31%;
-    background: #D7B7A3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
+    /* padding-top: 50px; */
 }
 
 .Founder {
     margin: auto;
     text-align: center;
-    padding-top: 50px;
 }
 
-.card {
+.img-founder {
+    width: 100%;
+}
+
+.img-founder img {
+    width: 100%;
+}
+
+/* .card {
     margin-left: 10px;
     flex-basis: 32%;
     border-radius: 30px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-}
+} */
 
 /* .sejarah-col img {
     width: 100%;
