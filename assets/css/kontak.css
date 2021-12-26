@@ -17,14 +17,14 @@ body {
     font-size: 30px;
 }
 
-.container {
+.container-hubungi {
     background-color: #EAE7E7;
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.container2 {
+.container-form {
     background-color: #985E49;
     border-radius: 20px;
     padding-top: 50px;
