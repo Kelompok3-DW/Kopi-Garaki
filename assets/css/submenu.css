@@ -32,9 +32,13 @@
 
 .layanan-imgwrapper p {
     position: absolute;
-    padding: 2rem;
+    padding: 1rem;
     opacity: 0;
     color: #432D27;
+}
+
+.layanan-imgwrapper button {
+    margin: 2px;
 }
 
 .layanan-imgwrapper p:hover {
