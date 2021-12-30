@@ -1,5 +1,5 @@
 /* Jumbotron */
-.carousel-fullsize {
+.container-titleproduk {
   height: 90vh;
   width: 100%;
   object-position: center;
@@ -56,43 +56,25 @@
   transition: all 0.35s ease;
 }
 
-
-@media (min-width: 1024px) {
-  #menu {
-    background-attachment: fixed;
-  }
+.minuman-imgwrapper {
+  width: 50%;
+  margin: 0 auto;
 }
 
-@media (max-width: 600px) {
-  #menu .icon-boxes {
-    margin-left: 65px;
-  }
+.minuman-imgwrapper img {
+  width: 100%;
 }
 
-@media (max-height: 800px) {
-  #menu {
-    height: auto;
-  }
+.wrapper-svg {
+  width: 40px;
 }
 
-@media (max-width: 992px) {
-  #menu {
-    height: auto;
-  }
+.child-svg {
+  width: 100%;
+}
 
-  #menu h1 {
-    font-size: 48px;
-    line-height: 36px;
-  }
-
-  #menu h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  #menu .icon-boxes {
-    margin-left: 35px;
-  }
+.detail-menu {
+  width: 70%;
 }
 
 .container-penutup {

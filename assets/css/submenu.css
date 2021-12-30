@@ -1,112 +1,24 @@
-/* Jumbotron */
-.carousel-fullsize {
-  height: 90vh;
-  width: 100%;
-  object-position: center;
-  object-fit: cover;
+.minuman-imgwrapper {
+    width: 100%;
 }
 
-/* Menu */
-.container-ulasanwrapper {
-  background-color: #fff;
+.minuman-imgwrapper img {
+    width: 100%;
 }
 
-.wrapper-layanan {
-  width: 25%;
-  margin: 20px 40px;
+.modal-body .minuman-imgwrapper {
+    width: 50%;
+    margin: 0 auto;
 }
 
-.layanan-imgwrapper {
-  padding: 10px;
-  border-radius: 20px;
-  background: linear-gradient(145deg, #d3d0d0, #faf7f7);
-  box-shadow: 6px 6px 20px #8c8b8b,
-    -6px -6px 20px #ffffff;
-  /* width: 200px; */
+.wrapper-svg {
+    width: 40px;
 }
 
-.layanan-imgwrapper img {
-  width: 100%;
-  object-fit: cover;
+.child-svg {
+    width: 100%;
 }
 
-.layanan-imgwrapper p {
-  position: absolute;
-  padding: 1rem;
-  opacity: 0;
-  color: #432D27;
-}
-
-.layanan-imgwrapper button {
-  margin: 2px;
-}
-
-.layanan-imgwrapper p:hover {
-  opacity: 1;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-
-
-@media (min-width: 1024px) {
-  #menu {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 600px) {
-  #menu .icon-boxes {
-    margin-left: 65px;
-  }
-}
-
-@media (max-height: 800px) {
-  #menu {
-    height: auto;
-  }
-}
-
-@media (max-width: 992px) {
-  #menu {
-    height: auto;
-  }
-
-  #menu h1 {
-    font-size: 48px;
-    line-height: 36px;
-  }
-
-  #menu h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  #menu .icon-boxes {
-    margin-left: 35px;
-  }
-}
-
-.container-penutup {
-  background-color: #D7B7A3;
-}
-
-/* Footer */
-.logo-wrapper {
-  width: 60%;
-}
-
-.logo-wrapper img {
-  width: 100%;
-}
-
-.keterangan-wrapper a {
-  text-decoration: none;
-}
-
-.sosmed {
-  margin: 10px 0;
-}
-
-.sosmed .bi {
-  font-size: 2vw;
+.detail-menu {
+    width: 70%;
 }
