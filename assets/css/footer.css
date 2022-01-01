@@ -1,3 +1,8 @@
+/* atur font */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* Footer */
 .logo-wrapper {
     width: 60%;
