@@ -24,8 +24,8 @@
     padding: 10px;
     border-radius: 20px;
     background: linear-gradient(145deg, #d3d0d0, #faf7f7);
-    box-shadow: 6px 6px 7px #8c8b8b,
-        -6px -6px 7px #ffffff;
+    box-shadow: 4px 4px 7px #8c8b8b,
+        -4px -4px 7px #ffffff;
     /* width: 200px; */
 }
 
